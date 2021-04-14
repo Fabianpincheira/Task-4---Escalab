@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Mi Pagina Web</title>
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+          <il><a class="home">Home</a></il>
+          <il><a class="contacto">Contacto</a></il>
+          <il><a class="producto">Producto</a></il>
+        </ul>
+      </nav>
+
+      <section class="seccion">
+          <div class="video-container">
+            <video src="./images/video.mp4" controls poster="./images/video.mp4" 
+             style="width: 100%; height: 20%;" >
+            </video> <!--CONTROLES DE REPRODUCCION-->
+          </div>
+      </section>
+
+      <section class="seccion2">
+          <div class="imagen-container">
+              <img src="./images/Captura.PNG" alt="Mifoto">      
+          </div>
+
+          <div class="descripcion-imagen">
+            <a> <h1>Hola, soy Fabian Pincheira.</h1></a>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, dolorem nesciunt officiis maiores consequatur nisi, rem veniam error aspernatur earum eligendi adipisci iste voluptates eos fugit incidunt repudiandae, unde reiciendis</p>
+            <br>
+            <button type="submit" name="enviar_formulario" id="conoceme"><p>¡Conoce mas de Mi!</p>
+            </button>
+        </div>
+          
+      </section>
+
+      <section class="seccion3">
+          
+          <div class="form-container">    
+            <hgroup><h1> ¡Contactenos!</h1></hgroup>
+            <p>
+                <input type="text" name="introducir_nombre" class="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </p>
+             <br>
+            <p>
+                <input type="email" name="introducir_email" class="email" required="obligatorio" placeholder="Escribe tu Email">
+            </p>
+              <br>
+            <p>
+              <input type="tel" name="introducir_telefono" class="telefono" placeholder="Escribe tu teléfono">
+            </p>    
+             <br>
+            <button type="submit" name="enviar_formulario" class="enviar"><p>Enviar</p></button> 
+          </div>  
+      </section>
+
+      <footer id="pie">
+        Developer  &copy; 2021
+    </footer>
+</body>
+    
+</body>
+</html>
